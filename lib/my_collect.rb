@@ -1,5 +1,5 @@
 def my_collect(array)
   collections = []
 
-  array
+  array.split(" ").first
 end
