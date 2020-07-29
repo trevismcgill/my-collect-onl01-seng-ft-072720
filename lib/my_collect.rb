@@ -6,6 +6,6 @@ def my_collect(array)
     collections.push(yield(array[i]))
     i++
 
-end  
+end
 collections
 end
