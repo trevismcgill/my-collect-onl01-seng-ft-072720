@@ -4,5 +4,8 @@ def my_collect(array)
 
   while i < array.length
     collections.push(yield(array[i]))
-  array
+    i++
+
+end  
+collections
 end
